@@ -1,0 +1,25 @@
+{
+  "name": "express-session-passport-cleanup",
+  "version": "1.0.0",
+  "description": "Clean up after passport when using it with express-session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/express-session-passport-cleanup.git"
+  },
+  "keywords": [
+    "express",
+    "express-session",
+    "passport",
+    "middleware"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleytodd/express-session-passport-cleanup/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/express-session-passport-cleanup"
+}
