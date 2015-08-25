@@ -7,7 +7,7 @@ module.exports = function cleanupPassportSession(req, res, next) {
 		}
 		ended = true;
 
-		if (req.session && Object.keys(req.session.passport).length === 0) {
+		if (req.session && req.session.passport && Object.keys(req.session.passport).length === 0) {
 			delete req.session.passport;
 		}
 		_end.call(res, chunk, encoding);
